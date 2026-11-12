@@ -318,3 +318,6 @@ Typical result with SMT: below Pphys each added worker adds about 0.8-1.0 of a c
 - **Leaked shared memory:** always `unlink()` in a `finally`.
 - **Noisy results:** close other apps, plug in power, avoid thermal throttling (the first runs are often fastest), and report the IQR.
 - **Pphys:** there is no stdlib call for it; read it from your Phase 0 OS output and set `PPHYS` by hand.
+  @sufianism
+
+  
